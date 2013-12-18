@@ -6,6 +6,7 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask quicksilver
 installcask google-chrome
 installcask google-chrome-canary
 installcask iterm2
@@ -14,3 +15,17 @@ installcask sublime-text
 installcask the-unarchiver
 installcask virtualbox
 installcask vlc
+installcask omnigraffle
+installcask pandoc
+installcask spotify
+installcask vagrant
+installcask utorrent
+installcask charles
+installcask google-drive
+installcask google-hangouts
+installcask handbrake
+installcask flowdock
+installcask phpstorm
+installcask quotefixformac
+installcask tower
+installcask github
