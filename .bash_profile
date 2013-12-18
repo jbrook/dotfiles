@@ -15,6 +15,9 @@ shopt -s nocaseglob
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend
 
+# Multi-line commands create a single history item
+shopt -s cmdhist
+
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell
 
