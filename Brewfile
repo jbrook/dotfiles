@@ -31,5 +31,19 @@ install tree
 tap homebrew/versions
 install lua52
 
+tap dinkypumpkin/get_iplayer
+install atomicparsley
+install rtmpdump
+install ffmpeg
+install mplayer
+install id3lib
+install id3v2
+install get_iplayer
+
+install exiftool
+install nmap
+install stunnel
+install tcpflow
+
 # Remove outdated versions from the cellar
 cleanup
