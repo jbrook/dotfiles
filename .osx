@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+ym!/usr/bin/env bash
 
 # ~/.osx — http://mths.be/osx
 
@@ -631,6 +631,12 @@ defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://
 ###############################################################################
 # Sublime Text                                                                #
 ###############################################################################
+
+if [[ ! -f /usr/local/bin/subl ]]; then
+  e_arrow "Symlinking subl binary"
+  ln -s ~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl &&
+  e_success "Symlink succeeded"
+fi
 
 # Install Sublime Text settings
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null

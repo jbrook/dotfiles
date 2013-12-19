@@ -1,5 +1,6 @@
 # Install native apps
 brew tap phinze/homebrew-cask
+brew tap caskroom/versions
 brew install brew-cask
 
 function installcask() {
@@ -11,7 +12,7 @@ installcask google-chrome
 installcask google-chrome-canary
 installcask iterm2
 installcask miro-video-converter
-installcask sublime-text
+installcask sublime-text3
 installcask the-unarchiver
 installcask virtualbox
 installcask vlc
@@ -29,3 +30,5 @@ installcask phpstorm
 installcask quotefixformac
 installcask tower
 installcask github
+installcask gfxcardstatus
+installcask omnifocus

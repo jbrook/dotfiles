@@ -41,7 +41,7 @@
 	whitespace = fix
 
 [core]
-	editor = /usr/local/bin/subl --wait
+	editor = subl --wait
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
